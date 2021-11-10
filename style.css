@@ -76,3 +76,43 @@
 .contact-me h2 {
     font-size: 25px;
 }
+
+.runbuddy-img img {
+    display: flex;  
+    flex-wrap: wrap;
+    max-width:150px;
+    max-height:100%;
+    float: left;
+}
+
+.robot-img img {
+    display: flex;  
+    flex-wrap: wrap;
+    height: auto;
+    max-width:150px;
+    max-height:100%;
+    float: left;
+}
+
+.number3-img img {
+    display: flex;  
+    flex-wrap: wrap;
+    max-width:150px;
+    max-height:100%;
+    float: left;
+}
+
+.contact-me ul {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.contact-me ul li {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    
+}
