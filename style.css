@@ -46,7 +46,7 @@
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 100px;
+    
 }
 
 .content h2 {
@@ -57,131 +57,84 @@
 .my-work {
     margin-bottom: 20px;
     padding: 50px;
-    height: 100px;
 }
 
 .contact-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 100px;
 }
 
 .about-me h2 {
     font-size: 28px;
 }
 
-.my-work h2 {
-    font-size: 25px;
+.projects {
+    width: 100%;
+    text-align: center;
 }
 
-.contact-me h2 {
-    font-size: 25px;
-}
-
-.runbuddy-img img {
-    display: flex;  
-    flex-wrap: wrap;
-    max-width:150px;
+.projects img {
+    /* display: flex;  
+    flex-direction: row; */
+    max-width:120px;
     max-height:100%;
-    float: left;
-}
-
-.robot-img img {
-    display: flex;  
-    flex-wrap: wrap;
-    height: auto;
-    max-width:150px;
-    max-height:100%;
-    float: left;
-}
-
-.number3-img img {
-    display: flex;  
-    flex-wrap: wrap;
-    max-width:150px;
-    max-height:100%;
-    float: left;
+    /* float: left; */
 }
 
 .contact-me ul {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 80%;
     justify-content: space-between;
 }
 
 .contact-me ul li {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    justify-content: space-between;
-    
+    list-style-type: none;
 }
 
 .contact-me ul li h3 a {
     color:#bf1932
 }
 
-@media screen and (max-width: 980px) {
-    nav h1 {
-        width: 100%;
-        text-align: center;
+@media screen and (min-width: 900px) {
+    .mobile {
+        display: none;
     }
-
-    nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-
-    nav ul li a {
-        font-size: 20px;
-    }
-
-    .hero {
-        width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    nav h1 {
-        width: 100%;
-        text-align: center;
-    }
-
-    nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-
-    nav ul li a {
-        font-size: 20px;
-    }
-
-    .hero {
-        width: 100%;
+    .web {
+        display: table;
     }
 }
 
-@media screen and (max-width: 575px) {
-    nav h1 {
+@media screen and (max-width: 900px) {
+   .mobile {
+       display: flex;
+       flex-direction: column;
+   }
+   .web {
+       display: none;
+   }
+} 
+
+@media screen and (max-width: 685px) {
+    .nav {
+        flex-direction: column;
+    }
+    .nav ul {
+        width: 90%;
+        justify-content: space-between;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+@media screen and (max-width: 625px) {
+    .contact-me ul {
         width: 100%;
+        flex-direction: column;
         text-align: center;
     }
-
-    nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-
-    nav ul li a {
-        font-size: 20px;
-    }
-
-    .hero {
-        width: 100%;
+    .contact-me ul li {
+        width: 70%;
     }
 }
