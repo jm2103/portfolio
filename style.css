@@ -121,3 +121,67 @@
 .contact-me ul li h3 a {
     color:#bf1932
 }
+
+@media screen and (max-width: 980px) {
+    nav h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    nav h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    nav h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+}
