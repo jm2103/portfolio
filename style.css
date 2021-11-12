@@ -79,6 +79,12 @@
     max-width:120px;
     max-height:100%;
     /* float: left; */
+    border: 3px solid;
+    border-color: #bf1932;
+}
+
+.projects a {
+    color: #bf1932;
 }
 
 .contact-me ul {
