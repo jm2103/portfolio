@@ -43,15 +43,19 @@
     margin-left: 20px;
 }
 
+.content h2 {
+    font-size: 25px;
+    border-bottom: 3px solid;
+}
+
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
     
 }
 
-.content h2 {
-    font-size: 25px;
-    border-bottom: 3px solid;
+.about-me h2 {
+    font-size: 28px;
 }
 
 .my-work {
@@ -62,10 +66,6 @@
 .contact-me {
     margin-bottom: 20px;
     padding: 50px;
-}
-
-.about-me h2 {
-    font-size: 28px;
 }
 
 .projects {
